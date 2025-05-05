@@ -1,0 +1,569 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    line-height: 1.80857;
+    color: #666666;
+}
+.header-section{
+    width: 100%;
+    background-color: #f8f9fa !important;
+    padding: 5px 0px;
+}
+.logo{
+    margin-top: 10px;
+}
+.menu{
+    margin-left: 102px
+}
+.nav-item{
+ padding-left: 29px;
+}
+.nav-item a:hover{
+    color: #1898b8;
+}
+.login-text {
+    margin: 7px 0px 0px 15px;
+}
+.login-text a {
+    text-decoration: none;
+    
+}
+.login-text  a:hover{
+    color:black;
+}
+
+
+
+.banner-section{
+    width: 100%;
+    padding: 60px 0px;
+    background-image: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: auto;
+    padding-top: 530px;
+    position: relative;
+	margin-bottom:50px;
+}
+.banner-content{
+position: absolute;
+top:50px ;
+text-align: center;
+color: #f8f9fa;
+}
+.banner-content h1{
+    font-size:62px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.banner-content input{
+    width: 550px;
+    height: 50px;
+    border: none;
+    position: relative;
+    border-radius: 50px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+} 
+.banner-content a{
+  text-decoration: none;
+  background-color: black;
+  color: #f8f9fa;
+   padding: 13px 56px; 
+   position: absolute;
+   left: 59%;
+   border-radius: 0px 25px 25px 0px;
+}
+.banner-content p{
+    font-size: 18px;
+    width: 71%;
+    margin-left:160px;
+}
+.banner-btn{
+    position: absolute;
+    top: 70%;
+    left: 43%;
+}
+.banner-btn a{
+    text-decoration: none;
+    color: #f8f9fa;
+   background-color: black;
+    padding: 13px 55px;
+    font-size: 19px;
+}
+.banner-btn a:hover{
+    background-color: #fff;
+    color: black;
+}
+.job-section{
+    width: 100%;
+    padding: 30px 0px;
+	margin-bottom:20px;
+}
+.job-desc-1{
+    width: 71%;
+    text-align: left;
+    margin-left: 175px;
+}
+.job-desc-1 h1{
+    font-weight:400;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+.job-desc-1 p{
+    font-size:18px;
+    margin-bottom: 30px;
+}
+.apply-btn{
+    margin-top: 80px
+}
+
+.apply-btn a{
+    text-decoration: none;
+    color: #f8f9fa;
+    background-color: black;
+    padding: 13px 52px;
+    font-size: 19px;
+}
+.apply-btn a:hover{
+    background-color: #0c8aba;
+    color: #fff;
+}
+.job-img img{
+  width: 100%;
+}
+.footer-section{
+    width: 100%;
+    padding: 80px 0px;
+    background-color:#00aeef;
+    color: #fff;
+    position: relative;
+}
+.footer-section h4{
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.footer-section p{
+    font-size: 19px;
+}
+.footer-section input{
+    width: 100%;
+    height: 55px;
+    border: none;
+    padding-left: 16px;
+    border-radius: 20px;
+    margin-top: 35px;
+}
+.footer-section a{
+    right: 122px;
+    position: absolute;
+    top: 239px;
+    text-decoration: none;
+    background: #313233;
+    padding: 11px 76px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+
+.end-section{
+    width: 100%;
+    padding: 15px 0px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+.end-section a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.search-conected{
+    width:100%;
+    padding: 60px 0px;
+    background-image: url(../images/search_bg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: auto;
+    padding-top: 480px;
+    position: relative; 
+    margin-bottom: 100px;
+    color: #fff;
+}
+.search-conected-desc{
+    width: 100%;
+    position: absolute;
+    top: 15%;
+    left:;
+}
+.sc-heading{
+    text-align: center;
+}
+.sc-heading h2{
+    font-size: 40px;
+    font-weight:bold;
+}
+.sc-input-1{
+    margin-top: 60px;
+    font-size: 18px;
+}
+.sc-input-1 p{
+    font-size: 15px;
+}
+.sc-input-1 input{
+    width: 88%;
+    border: none;
+    height: 50px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.sc-input-1 i{
+ background-color: #666666;   
+ color: #fff ;
+  padding: 17px 18px;
+}
+.sc-btn{
+    margin-top: 70px;
+    text-align: center;
+}
+.sc-btn a{
+    text-decoration: none;
+    background-color:#fff;
+    color: black;
+    padding: 14px 45px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+
+
+.recurments-section{
+  
+    width: 100%;
+    padding: 40px 0px;
+    background-image: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    height: auto;   
+    position: relative;
+    margin-bottom: 60px;
+}
+.recurments-heading{
+    text-align: center;
+    color: #fff;
+}
+.recurments-heading h2{
+    font-size: 50px;
+
+}
+.recurments-input{
+    width: 100%;
+    background-color:#d6f2ee ;
+    padding: 30px 0px;
+    margin-bottom:60px;
+}
+
+.search-input{
+    background-color: #36bbe9;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    margin-left: 10px;
+    width: 220px;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.email-input{
+    background-color: #000;
+    color: #fff;
+    font-size: 19px;
+    border: none;
+    margin-left: 10px;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 10px;
+    text-align: center;
+}
+.recurments-job{
+    width: 100%;
+    padding: 20px 0px;
+    margin-bottom: 50px ;
+    border-bottom: 5px solid #c3c3c2;
+    }
+.recurments-job h2{
+    color: #00aeef;
+}
+.recurments-job-btn{
+    margin-top: 20px;
+}
+.recurments-job-btn a{
+  text-decoration: none;
+  background-color: #00aeef;
+  color: #fff;
+  padding: 18px 22px;
+  border-radius: 50%;
+  font-size: 30px;
+}
+.recurments-job-btn a:hover{
+   background-color: #000;
+   color: #fff;
+}
+.recurments-job-btn .active{
+   background-color: #000;
+}
+.recurments-job-btn-1{
+    margin-top: 20px;
+}
+.recurments-job-btn-1 a{
+    text-decoration: none;
+    background-color:#00aeef;
+    color: #fff;
+    padding: 13px 30px;
+    font-size: 19px;
+    border-radius: 30px;
+  }
+  .recurments-job-desc h2{
+    font-size: 45px; 
+  }
+  .recurments-job-desc p{
+    font-size: 19px;
+  }
+
+
+  .companies-section{
+  
+    width: 100%;
+    padding: 40px 0px;
+    background-image: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    height: auto;   
+    position: relative;
+    margin-bottom: 60px;
+}
+.companies-heading{
+    text-align: center;
+    color: #fff;
+}
+.companies-heading h2{
+    font-size: 50px;
+
+}
+.find-company{
+    text-align: center;
+    padding: 30px 0px;
+}
+.find-company h1{
+    border-bottom: 4px solid #00aeef;
+    display: inline;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+
+.find-company-img{
+    width: 100%;
+    padding: 30px 0px;
+}
+.company-col-1{
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.company-col-1 figure img{
+    width: 100%;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.company-col-1 figure img:hover{
+    transform: scale(1.5);
+}
+.company-col-1 span{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    z-index: -1;
+    display: block;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    color: #444;
+    font-size: 20px;
+    text-decoration: none;
+    -webkit-transition: .3s ease-in-out;
+    text-align: center;
+    transition: .3s ease-in-out;
+    opacity: 0;
+}
+.company-col-1 figure{
+    width: 250px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden
+}
+
+.services-section{
+  
+    width: 100%;
+    padding: 40px 0px;
+    background-image: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    height: auto;   
+    position: relative;
+    margin-bottom: 60px;
+}
+.services-heading{
+    text-align: center;
+    color: #fff;
+}
+.services-heading h2{
+    font-size: 50px;
+
+}
+.find-services{
+    text-align: center;
+    padding: 30px 0px;
+}
+.find-services h1{
+    border-bottom: 4px solid #00aeef;
+    display: inline;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+.services-main{
+    width:100%;
+    padding: 60px 0px;
+}
+.services-img img{
+    width: 100%;
+}
+.services-desc{
+    text-align: center;
+    margin-top: 20px;
+}
+.services-desc h3{
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.services-desc p{
+    font-size: 14px;
+    line-height: 25px;
+}
+.services-btn{
+    text-align: center;
+    padding: 20px 0px;
+}
+.services-btn a{
+    text-decoration: none;
+    padding: 14px 40px;
+    background-color: #000;
+    color: #fff;
+}
+.services-btn a:hover{
+    background-color: #00aeef;
+    color: #fff;
+}
+
+.login-main{
+    width: 100%;
+    background-color: #007bff;
+    padding: 60px 0px;  
+    text-align: center;
+    margin-bottom: 50px;
+}
+.login-input{
+    background-color: #f8f9fa;
+    color: hsl(0, 0%, 0%);
+    width: 38%;
+    height: 500px;
+    border-radius: 20px;
+    padding: 15px 0px;
+    margin-left: 320px;
+}
+.login-input input{
+    width: 90%;
+    padding: 13px 10px;
+    border-radius: 30px;
+    margin-top: 30px;
+    border: none;
+    padding-left: 20px;
+}
+.login-section{
+    width: 100%;
+    padding: 40px 0px;
+    background-image: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    height: auto;   
+    position: relative;
+    margin-bottom: 60px;
+}
+.login-heading{
+    text-align: center;
+    color: #fff;
+}
+.login-heading h2{
+    font-size: 50px;
+
+}
+.login-btn-1{
+    width: 100%;
+    margin: 20px 0px 35px 0px;
+}
+.login-btn-1 a{
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 15px 160px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.login-btn-1 a:hover{
+    background-color: #0062cc;
+    border-color:#005cbf ;
+    color: #fff;
+}
+.login-btn-2{
+    width: 100%;
+    margin: 40px 0px 30px 0px;
+}
+.login-btn-2 a{
+    text-decoration: none;
+    background-color: #ea4335;
+    color: white;
+    padding: 15px 125px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.login-btn-3{
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+}
+.login-btn-3 a{
+    text-decoration: none;
+    background-color:#3b5998;
+    color: white;
+    padding: 15px 115px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.login-btn-3 a:hover{
+    background-color: #0062cc;
+    border-color:#005cbf ;
+    color: #fff;
+}
